@@ -1,0 +1,11 @@
+{
+    "name": "Adri888Games.Core888.Tests",
+    "references": [
+        "Adri888Games.Core888"
+    ],
+    "optionalUnityReferences": [
+        "TestAssemblies"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": []
+}

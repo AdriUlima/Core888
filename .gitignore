@@ -1,0 +1,17 @@
+# Archivos temporales y de configuración del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos de metadatos generados por Unity que no deben subirse
+*.cs.meta.txt
+*.meta.txt
+
+# Carpetas de caché y temporales si pruebas el paquete localmente
+.vs/
+.idea/
+.vscode/
+*.sln
+*.csproj
+
+# Archivos de Unity que se generan al importar (solo si aplican)
+.upm/

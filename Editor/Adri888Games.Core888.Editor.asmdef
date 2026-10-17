@@ -1,0 +1,10 @@
+{
+    "name": "Adri888Games.Core888.Editor",
+    "references": [
+      "Adri888Games.Core888"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": []
+}

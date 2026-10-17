@@ -1,0 +1,14 @@
+{
+    "name": "Adri888Games.Core888.Editor.Tests",
+    "references": [
+        "Adri888Games.Core888.Editor",
+        "Adri888Games.Core888"
+    ],
+    "optionalUnityReferences": [
+        "TestAssemblies"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": []
+}

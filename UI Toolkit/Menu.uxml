@@ -1,0 +1,12 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Packages/com.adri888games.core888/UI%20Toolkit/Global.uss?fileID=7433441132597879392&amp;guid=3a130e3908ef53e4b8bcb71b7588104d&amp;type=3#Global"/>
+    <ui:VisualElement name="container" style="left: 0; top: 0; right: 0; bottom: 0; position: absolute; align-items: center; justify-content: space-evenly; background-color: rgb(255, 255, 255);">
+        <ui:Label text="Label" name="title" double-click-selects-word="false" triple-click-selects-line="false" class="h1"/>
+        <ui:VisualElement name="buttons" style="flex-grow: 0.1; justify-content: space-between;">
+            <ui:Button text="Button" double-click-selects-word="false" triple-click-selects-line="false" name="play" class="text"/>
+            <ui:Button text="Button" double-click-selects-word="false" triple-click-selects-line="false" name="options" class="text"/>
+            <ui:Button text="Button" double-click-selects-word="false" triple-click-selects-line="false" name="quit" class="text"/>
+        </ui:VisualElement>
+        <ui:Image source="project://database/Resources/unity_builtin_extra?fileID=10901&amp;guid=0000000000000000f000000000000000&amp;type=0#Checkmark"/>
+    </ui:VisualElement>
+</ui:UXML>

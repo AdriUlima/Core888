@@ -14,7 +14,7 @@ namespace Adri888
 
         void OnEnable() => panelRenderer.RegisterUIReloadCallback(OnUIReload);
         void OnDisable() => panelRenderer.UnregisterUIReloadCallback(OnUIReload);
-        private void OnUIReload(PanelRenderer renderer, VisualElement root)
+        private void OnUIReload(PanelRenderer renderer, VisualElement root, int version)
         {
             //TemplateContainer container = optionsUXML.Instantiate();
             //panelOptions = container.Q<VisualElement>("canvas");

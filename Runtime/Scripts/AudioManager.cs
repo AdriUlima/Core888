@@ -10,19 +10,7 @@ namespace Adri888
 {
     public class AudioManager : MonoBehaviour
     {
-        #region Singleton
-        public static AudioManager Instance { get; private set; }
-        void Awake()
-        {
-            if (Instance == null)
-            {
-                Instance = this;
-                DontDestroyOnLoad(gameObject);
-                BuildLookup();
-            }
-            else Destroy(gameObject);
-        }
-        #endregion
+        void Awake() => BuildLookup();
 
         [HideInInspector] public int MasterVolume = 100, BgmVolume = 100, SfxVolume = 100;
         private Bus masterBus, bgmBus, sfxBus;
